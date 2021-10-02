@@ -77,7 +77,7 @@ form.addEventListener('submit', (evt) => {
       film.genres.includes(genreValue),
     );
 
-  } 
+  }
 
   renderFilms(filteredFilms, elList);
 

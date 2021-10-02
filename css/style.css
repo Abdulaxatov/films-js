@@ -1,11 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
 .list__item {
-  width: 300px;
+  width: 390px;
   padding: 5px 0px 5px 10px;
   background-color: aquamarine;
   margin-bottom: 20px;
   border-radius: 5px;
+  border: 3px solid darkorange;
 }
 
+.list__item time {
+  color: darkcyan;
+}
+
+.list li {
+  list-style: none;
+  color: darkcyan;
+}
 .film__image {
   border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.film__heading {
+  color: darkcyan;
 }
